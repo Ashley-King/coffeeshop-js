@@ -154,7 +154,7 @@ header {
   top: 0;
   left: 0;
   height: 100%;
-  width: 10rem;
+  /* width: 10rem; */
   background: rgba(242, 180, 80, 0.8);
   z-index: 3;
 }
@@ -178,6 +178,14 @@ header {
 }
 .nav__logo:hover {
   background: var(--grey);
+}
+.nav {
+  width: 0;
+  overflow: hidden;
+  transition: all 0.4s linear;
+}
+.nav--show {
+  width: 10rem;
 }
 /* end nav bar */
 /* video switch   */
