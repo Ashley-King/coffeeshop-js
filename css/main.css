@@ -29,6 +29,20 @@ body {
   font-family: "La Belle Aurore", cursive;
 }
 /* end of global */
+/* preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--brightYellow);
+  z-index: 999;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+/* end preloader */
 
 /* header styles */
 header {
