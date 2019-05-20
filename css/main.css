@@ -166,3 +166,38 @@ header {
   background: var(--grey);
 }
 /* end nav bar */
+/* video switch   */
+.video__switch-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .video__switch-container {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 3;
+  }
+  .video__switch {
+    position: relative;
+    width: 5rem;
+    background: var(--yellow);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  .video__switch-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--brown);
+    height: 100%;
+    width: 50%;
+    border-radius: 0.5rem;
+  }
+}
+/*end video switch   */
